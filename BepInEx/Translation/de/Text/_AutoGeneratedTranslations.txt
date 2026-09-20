@@ -52,12 +52,16 @@ Navigator=Navigator
 Dive Officer=Tauchoffizier
 Chief Engineer=Chefingenieur
 Torpedoes=Torpedos
+Destroyed=Gesunken
+Playstyle=Schwierigkeit
 
 
 # Missions- und Editor-Texte
 Mission=Einsatz
 Scenario=Szenario
 Realism=Realismus
+Escorts=Geleitzug
+Other=Weiteres
 Force Manual Navigation=Manuelle Navigation erzwingen
 Force Real Morse=Echtes Morsen erzwingen
 Tonnage Goal=Tonnageziel
@@ -108,6 +112,9 @@ Mission Aborted=Mission abgebrochen
 You Died=Sie sind gestorben
 You drowned=Sie sind ertrunken
 r:^Respawning in (\d+)\.\.\.$="Wiedereinstieg in $1..."
+r:^(.+)\s+Destroyed$="$1 zerstört"
+r:^(.+)\s+sunk\s+due\s+to\s+flooding\.\s*All\s+aboard\s+perished\.$="$1 infolge Wassereinbruchs gesunken.\nDie gesamte Besatzung ist gefallen."
+
 
 # =============================================================================
 # GEOGRAFISCHE ANGABEN & KARTENDATEN (HISTORISCH KORREKT)
@@ -387,10 +394,10 @@ Speed=Fahrt
 
 
 # =============================================================================
-# TORPEDO INFOKARTEN (WIP)
+# TORPEDO-INFOKARTEN (AUFGETEILT IN ZWEI TEXT-OBJEKTE)
 # =============================================================================
-r:^(?i)THE\s+TYPE\s+I\s+TORPEDO\s+IS\s+A\s+STEAM\s+POWERED\s+TORPEDO\.\s*STEAM\s+TORPEDOES\s+HAVE\s+A\s+LONG\s+RANGE\s+AND\s+HIGH\s+SPEED,\s+BUT\s+ARE\s+NOISY\s+AND\s+LEAVE\s+A\s+TRAIL\s+OF\s+BUBBLES\s+THAT\s+CAN\s+BE\s+VISUALLY\s+DETECTED\.\s*PROPULSION:\s*STEAM\s+POWERED\s+ENTERED\s+SERVICE:\s*1934\s*RANGE:\s*7000\s*-\s*14000\s+METERS\s*SPEED:\s*30\s*-\s*44\s+KNOTS\s*TRIGGER\s+MECHANISM:\s*IMPACT\s+PISTOL\s*GUIDANCE:\s*NONE\s*$,="Der G7a-Torpedo (Typ I) ist ein dampfgetriebener Torpedo.\nDampftorpedos besitzen eine große Reichweite und hohe\nGeschwindigkeit, sind jedoch geräuschvoll und hinterlassen\neine sichtbare Blasenbahn, die optisch ausgemacht werden kann.\n\nAntrieb: Dampfmotor\nIn Dienst gestellt: 1934\nReichweite: 7000 - 14000 Meter\nFahrt: 30 - 44 sm/h\nZündmechanismus: Aufschlagzünder (AZ)\nLenkung: Keine"
-r:^(?i)THE\s+TYPE\s+II\s+TORPEDO\s+IS\s+AN\s+ELECTRIC\s+TORPEDO\.\s*ELECTRIC\s+TORPEDOES\s+LEAVE\s+NO\s+BUBBLE\s+TRAIL,\s+AND\s+ARE\s+VIRTUALLY\s+SILENT,\s+BUT\s+HAVE\s+LIMITED\s+RANGE\s+AND\s+SPEED\.\s*PROPULSION:\s*ELECTRIC\s+ENTERED\s+SERVICE:\s*1936\s*RANGE:\s*5000\s+METERS\s*SPEED:\s*30\s+KNOTS\s*TRIGGER\s+MECHANISM:\s*IMPACT\s+PISTOL\s*GUIDANCE:\s*NONE\s*$,="Der Torpedo Typ II ist ein elektrisch angetriebener Torpedo.\nElektrotorpedos hinterlassen keine Blasenbahn und laufen\nnahezu geräuschlos, besitzen jedoch eine begrenzte\nReichweite und Geschwindigkeit.\n\nAntrieb: Elektromotor\nIn Dienst gestellt: 1936\nReichweite: 5000 Meter\nFahrt: 30 sm/h\nZündmechanismus: Aufschlagzünder (AZ)\nLenkung: Keine"
+r:^The\s+type\s+I\s+torpedo\s+is\s+a\s+steam\s+powered\s+torpedo\.\s+Steam\s+torpedoes\s+have\s+a\s+long\s+range\s+and\s+high\s+speed,\s+but\s+are\s+noisy\s+and\s+leave\s+a\s+trail\s+of\s+bubbles\s+that\s+can\s+be\s+visually\s+detected\.\n\nPropulsion:\s*Steam\s+powered\nEntered\s+service:\s*1934\nRange:\s*7000\s*-\s*14000\s+meters\nSpeed:\s*30\s*-\s*44\s+knots\nTrigger\s+mechanism:\s*Impact\s+pistol\nGuidance:\s*None$="Der G7a-Torpedo (Typ I „Ato“) ist ein dampfgetriebener Torpedo. Dampftorpedos besitzen eine große Reichweite und hohe Geschwindigkeit, sind jedoch geräuschvoll und hinterlassen eine sichtbare Blasenbahn, die optisch ausgemacht werden kann.\n\nAntrieb: Dampfmotor\nIn Dienst gestellt: 1934\nReichweite: 7000 - 14000 Meter\nFahrt: 30 - 44 sm/h\nZündmechanismus: Aufschlagzünder (AZ)\nLenkung: Keine"
+r:^The\s+type\s+II\s+torpedo\s+is\s+an\s+electric\s+torpedo\.\s+Electric\s+torpedoes\s+leave\s+no\s+bubble\s+trail,\s+and\s+are\s+virtually\s+silent,\s+but\s+have\s+limited\s+range\s+and\s+speed\.\n\nPropulsion:\s*Electric\nEntered\s+service:\s*1936\nRange:\s*5000\s+meters\nSpeed:\s*30\s+knots\nTrigger\s+mechanism:\s*Impact\s+pistol\nGuidance:\s*None$="Der G7e-Torpedo (Typ II „Eto“) ist ein elektrisch angetriebener Torpedo. Elektrotorpedos hinterlassen keine Blasenbahn und laufen nahezu geräuschlos, besitzen jedoch eine begrenzte Reichweite und Geschwindigkeit.\n\nAntrieb: Elektromotor\nIn Dienst gestellt: 1936\nReichweite: 5000 Meter\nFahrt: 30 sm/h\nZündmechanismus: Aufschlagzünder (AZ)\nLenkung: Keine"
 
 # =============================================================================
 # SONSTIGE STATIONEN & SCHOTTE
