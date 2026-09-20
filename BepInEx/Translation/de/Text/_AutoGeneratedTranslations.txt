@@ -105,7 +105,9 @@ r:^Mission time:\n(\d+) hours, (\d+) minutes, and (\d+) seconds\.$="Einsatzdauer
 r:^Detected during mission:\s*Yes\nTorpedoes fired:\s*(\d+)\nTorpedoes hit:\s*(\d+)\nTorpedo Hit Ratio:\s*(\d+)%\nMerchants Destroyed:\s*(\d+)\nWarships Destroyed:\s*(\d+)\nAircraft Destroyed:\s*(\d+)\nTonnage Sunk:\s*(\d+)$="Während des Einsatzes geortet: Ja\nAbgefeuerte Torpedos: $1\nTorpedotreffer: $2\nTorpedo-Trefferquote: $3%\nZerstörte Handelsschiffe: $4\nZerstörte Kriegsschiffe: $5\nAbgeschossene Flugzeuge: $6\nVersenkte Tonnage: $7 BRT"
 r:^Detected during mission:\s*No\nTorpedoes fired:\s*(\d+)\nTorpedoes hit:\s*(\d+)\nTorpedo Hit Ratio:\s*(\d+)%\nMerchants Destroyed:\s*(\d+)\nWarships Destroyed:\s*(\d+)\nAircraft Destroyed:\s*(\d+)\nTonnage Sunk:\s*(\d+)$="Während des Einsatzes geortet: Nein\nAbgefeuerte Torpedos: $1\nTorpedotreffer: $2\nTorpedo-Trefferquote: $3%\nZerstörte Handelsschiffe: $4\nZerstörte Kriegsschiffe: $5\nAbgeschossene Flugzeuge: $6\nVersenkte Tonnage: $7 BRT"
 Mission Aborted=Mission abgebrochen
-You Died=Du bist gestorben
+You Died=Sie sind gestorben
+You drowned=Sie sind ertrunken
+r:^Respawning in (\d+)\.\.\.$="Wiedereinstieg in $1..."
 
 # =============================================================================
 # GEOGRAFISCHE ANGABEN & KARTENDATEN (HISTORISCH KORREKT)
