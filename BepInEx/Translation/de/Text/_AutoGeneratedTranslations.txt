@@ -16,9 +16,10 @@ Submarine=Unterseeboot
 
 # Lobby- und Multiplayer-Menüs
 Creating lobby...=Lobby wird erstellt...
-Loading models and game...=Modelle und Spiel werden geladen...
-Loading...=Laden...
-Loading ranks...=Lade Ränge...
+Loading models and game...=Einsatzdaten und Einheiten werden geladen...
+Loading...=Wird geladen...
+Loading ranks...=Dienstgrade werden geladen...
+Loading game...=Spiel wird geladen...
 Filters=Filter
 Casual=Lässig
 Low=Niedrig
@@ -45,13 +46,13 @@ Radioman=Funker
 Navigator=Navigator
 Dive Officer=Tauchoffizier
 Chief Engineer=Chefingenieur
+Torpedoes=Torpedos
 
 
 # Missions- und Editor-Texte
 Mission=Einsatz
 Scenario=Szenario
 Realism=Realismus
-Loading game...=Spiel wird geladen...
 Force Manual Navigation=Manuelle Navigation erzwingen
 Force Real Morse=Echtes Morsen erzwingen
 Tonnage Goal=Tonnageziel
@@ -78,7 +79,7 @@ Publish to the Steam Workshop=Im Steam Workshop veröffentlichen
 Revert=Zurücksetzen
 Reset=Zurücksetzen
 Clear All=Alles löschen
-r:^As you know, the war we are fighting is a tonnage war\. The British are highly dependant on imported goods and have therefore adopted convoy tactics in order to protect their merchant ships\. The objective of the German U-boat fleet is to break their supply chain by intercepting these convoys, strangling the enemy into submission\.\s*You have been assigned to the (.*), grid ([A-Z]{2}\s*\d+)\.\s*These are your orders:\s*Locate a British merchant convoy and approach it with caution\. The enemy will be on the alert for the presence of U-boats\. The merchant ships may be weaponized or escorted by heavily armed naval vessels and aircraft\. Engage the convoy at periscope depth\s*and make sure to keep your distance if surfaced\. The U-boats low water profile makes it difficult to detect from larger distances\. Attacks during nighttime or in advantageous weather conditions such as fog reduces the risk of detection, as long as you stay clear of enemy vessels equipped with searchlights\.\s*Once a convoy is located, sink at least (\d+) tonnes worth of enemy freighters and then\s*return to port\. Avoid escort vessels if possible, engage them only if necessary\. In case of detection, dive immediately and stay submerged until a new opportunity arises\.\s*We expect you to do your utmost at all times\. You will fulfill your duty and ensure the success of our commission\.\s*Best of luck\s*(.*)$="Wie Ihnen bekannt ist, ist der Krieg, den wir führen, ein Tonnagekrieg. Die Briten sind in hohem Maße von Importgütern abhängig und sind daher zur Geleitzugtaktik übergegangen, um ihre Handelsschiffe zu schützen. Das Ziel der deutschen U-Boot-Flotte ist es, diese Nachschublinien durch das Abfangen der Geleitzüge zu unterbrechen und den Gegner niederzuzwingen.\n\nIhr Boot wurde für das Operationsgebiet $1, Marinequadrat $2, eingeleilt.\n\nHier sind Ihre Befehle:\nSichten Sie einen britischen Handelsgeleitzug und laufen Sie diesen mit äußerster Vorsicht an. Der Gegner ist alarmiert und rechnet mit der Anwesenheit von U-Booten. Die Handelsschiffe können bewaffnet sein oder von schwer bewaffneten Seestreitkräften und Luftstreitkräften eskortiert werden. Greifen Sie den Geleitzug auf Sehrohrtiefe an\nund halten Sie bei Überwasserfahrt unbedingt ausreichenden Abstand. Die niedrige Silhouette des U-Bootes erschwert eine Sichtung auf größere Entfernungen. Angriffe bei Nacht oder unter günstigen Wetterbedingungen wie Nebel verringern das Entdeckungsrisiko, solange Sie sich von feindlichen Schiffen mit Suchscheinwerfern fernhalten.\n\nSobald der Geleitzug ausgemacht ist, versenken Sie mindestens $3 BRT feindlichen Handelsschiffsraums und danach\ntreten Sie den Rückmarsch zum Stützpunkt an. Meiden Sie Sicherungsfahrzeuge nach Möglichkeit und bekämpfen Sie diese nur im Notfall. Bei Entdeckung ist sofort zu tauchen; verbleiben Sie unter Wasser, bis sich eine neue Gelegenheit bietet.\n\nEs wird zu jeder Zeit voller Einsatz von Ihnen erwartet. Erfüllen Sie Ihre Pflicht und sichern Sie den Erfolg unseres Auftrags.\n\nGute Jagd!\n\n$4"
+r:^Sehr geehrter, Herr Kommandant!\s*As you know, the war we are fighting is a tonnage war\. The British are highly dependant on imported goods and have therefore adopted convoy tactics in order to protect their merchant ships\. The objective of the German U-boat fleet is to break their supply chain by intercepting these convoys, strangling the enemy into submission\.\s*You have been assigned to the (.*), grid ([A-Z]{2}\s*\d+)\.\s*These are your orders:\s*Locate a British merchant convoy and approach it with caution\. The enemy will be on the alert for the presence of U-boats\. The merchant ships may be weaponized or escorted by heavily armed naval vessels and aircraft\. Engage the convoy at periscope depth\s*and make sure to keep your distance if surfaced\. The U-boats low water profile makes it difficult to detect from larger distances\. Attacks during nighttime or in advantageous weather conditions such as fog reduces the risk of detection, as long as you stay clear of enemy vessels equipped with searchlights\.\s*Once a convoy is located, sink at least (\d+) tonnes worth of enemy freighters and then\s*return to port\. Avoid escort vessels if possible, engage them only if necessary\. In case of detection, dive immediately and stay submerged until a new opportunity arises\.\s*We expect you to do your utmost at all times\. You will fulfill your duty and ensure the success of our commission\.\s*Best of luck\s*(.*)$="Sehr geehrter Herr Kommandant!\n\nWie Ihnen bekannt ist, ist der Krieg, den wir führen, ein Tonnagekrieg. Die Briten sind in hohem Maße von Importgütern abhängig und sind daher zur Geleitzugtaktik übergegangen, um ihre Handelsschiffe zu schützen. Das Ziel der deutschen U-Boot-Flotte ist es, diese Nachschublinien durch das Abfangen der Geleitzüge zu unterbrechen und den Gegner niederzuzwingen.\n\nIhr Boot wurde für das Operationsgebiet $1, Marinequadrat $2, eingeleilt.\n\nHier sind Ihre Befehle:\nSichten Sie einen britischen Handelsgeleitzug und laufen Sie diesen mit äußerster Vorsicht an. Der Gegner ist alarmiert und rechnet mit der Anwesenheit von U-Booten. Die Handelsschiffe können bewaffnet sein oder von schwer bewaffneten Seestreitkräften und Luftstreitkräften eskortiert werden. Greifen Sie den Geleitzug auf Sehrohrtiefe an\nund halten Sie bei Überwasserfahrt unbedingt ausreichenden Abstand. Die niedrige Silhouette des U-Bootes erschwert eine Sichtung auf größere Entfernungen. Angriffe bei Nacht oder unter günstigen Wetterbedingungen wie Nebel verringern das Entdeckungsrisiko, solange Sie sich von feindlichen Schiffen mit Suchscheinwerfern fernhalten.\n\nSobald der Geleitzug ausgemacht ist, versenken Sie mindestens $3 BRT feindlichen Handelsschiffsraums und danach\ntreten Sie den Rückmarsch zum Stützpunkt an. Meiden Sie Sicherungsfahrzeuge nach Möglichkeit und bekämpfen Sie diese nur im Notfall. Bei Entdeckung ist sofort zu tauchen; verbleiben Sie unter Wasser, bis sich eine neue Gelegenheit bietet.\n\nEs wird zu jeder Zeit voller Einsatz von Ihnen erwartet. Erfüllen Sie Ihre Pflicht und sichern Sie den Erfolg unseres Auftrags.\n\nGute Jagd!\n\n$4"
 r:^([A-Z]{2}\d*)\s*-\s*(Medium Tanker|Requisitioned Trawler|Passenger Liner|Light Merchant|Heavy Tanker|Heavy Freighter),\s*type\s*(\d+)\s*\|\s*Displacement:\s*(\d+)\s*tons\s*\|\s*Top Speed:\s*(\d+)\s*kn\s*\|\s*Armed:\s*(Yes|No)$="$1 - $2, Typ $3 | Verdrängung: $4 Tonnen | Höchstgeschwindigkeit: $5 kn | Bewaffnet: ${6/Yes/Ja/No/Nein}"
 Geschwindigkeit=Fahrt
 TV Electric Torpedo=G7es Zaunkönig (Typ V)
@@ -115,7 +116,7 @@ Log Book=Logbuch
 Activity Log=Aktivitätsprotokoll
 Banned Players=Gebannte Spieler
 Community Profile=Community-Profil
-Steam Profile=Steam-Profile
+Steam Profile=Steam-Profil
 
 
 # =============================================================================
