@@ -1,5 +1,5 @@
 ﻿# =============================================================================
-# REINE SYSTEM- UND MENÜTEXTE (BEREINIGT)
+# REINE SYSTEM- UND MENÜTEXTE
 # =============================================================================
 Confirm=Bestätigen
 Apply=Anwenden
@@ -54,7 +54,7 @@ Chief Engineer=Chefingenieur
 Torpedoes=Torpedos
 Destroyed=Gesunken
 Playstyle=Schwierigkeit
-
+r:^No\s+games\s+found!\nTry\s+updating\s+your\s+search\s+parameters\s+in\s+the\s+sidebar,\s+or\s+creating\s+a\s+new\s+lobby\.\n\nYou\s+can\s+also\s+click\s+any\s+of\s+the\s+icons\s+below\s+to\s+join\s+Wolfpack\s+communities\s+online\s+and\s+find\s+other\s+people\s+looking\s+to\s+play!$="Keine Einsätze gefunden!\nVersuchen Sie, die Suchkriterien in der Seitenleiste anzupassen oder eine neue Lobby zu erstellen.\n\nSie können auch auf eines der Symbole unten klicken, um Online-Gemeinschaften von Wolfpack beizutreten und andere Mitspieler für eine Feindfahrt zu finden!"
 
 # Missions- und Editor-Texte
 Mission=Einsatz
@@ -99,10 +99,10 @@ Hold left control and left-click to automatically assign a torpedo of this type.
 Hold left shift and left-click to automatically assign all torpedoes of this type.=Umschalt + linke Maustaste: Alle Torpedos dieses Typs automatisch laden.
 Right-click a torpedo to remove it.=Torpedo mit rechter Maustaste anklicken, um ihn zu entfernen.
 Left-click and drag a torpedo to the desired slot to assign it.=Torpedo mit linker Maustaste anklicken und in das Rohr oder Lager ziehen.
-
+Objectives=Operationsziele
 
 # =============================================================================
-# ABSCHLUSSBERICHT & EINSATZSTATISTIK (DYNAMISCH & HISTORISCH KORREKT)
+# ABSCHLUSSBERICHT & EINSATZSTATISTIK 
 # =============================================================================
 r:^(.*) is alive\.$="$1 ist fahrbereit."
 r:^Mission time:\n(\d+) hours, (\d+) minutes, and (\d+) seconds\.$="Einsatzdauer:\n$1 Stunden, $2 Minuten und $3 Sekunden."
@@ -117,13 +117,14 @@ r:^(.+)\s+sunk\s+due\s+to\s+flooding\.\s*All\s+aboard\s+perished\.$="$1 infolge 
 
 
 # =============================================================================
-# GEOGRAFISCHE ANGABEN & KARTENDATEN (HISTORISCH KORREKT)
+# GEOGRAFISCHE ANGABEN & KARTENDATEN 
 # =============================================================================
 Longitude=Länge (L)
 Latitude=Breite (B)
 Average Depth=Mittlere Tiefe
 meters=Meter
 r:^Longitude:\s*(-?\d+[\.,]\d+)\s*°\s*E,\s*Latitude:\s*(-?\d+[\.,]\d+)\s*°\s*N\nAverage\s+Depth:\s*(\d+)\s*-\s*(\d+)\s+meters$="Längengrad: $1 ° O, Breitengrad: $2 ° N\nMittlere Tiefe: $3 - $4 Meter"
+r:^Longitude:\s*(-?\d+[\.,]\d+)\s*°\s*W,\s*Latitude:\s*(-?\d+[\.,]\d+)\s*°\s*N\nAverage\s+Depth:\s*(\d+)\s*-\s*(\d+)\s+meters$="Längengrad: $1 ° W, Breitengrad: $2 ° N\nMittlere Tiefe: $3 - $4 Meter"
 
 # Sonstiges UI
 Log Book=Logbuch
@@ -134,7 +135,7 @@ Steam Profile=Steam-Profil
 
 
 # =============================================================================
-# KOMMANDOSTATIONEN, BORDTELEFON & DIENSTRÄUME (HISTORISCH KORREKT)
+# KOMMANDOSTATIONEN, BORDTELEFON & DIENSTRÄUME 
 # =============================================================================
 Torpedo room=Torpedoraum
 Conning tower=Kommandoturm
@@ -156,6 +157,7 @@ Rudder angle=Ruderlage
 Open voice tube.=Sprechrohr öffnen
 Close voice tube.=Sprechrohr schließen
 Use voice tube whistle=Sprechrohrpfeife betätigen
+Voice tube leading to the control room=Sprechrohr zur Zentrale
 Night light switch=Nachtbeleuchtungsschalter
 
 # Tiefensteuerstand (Dive Control)
@@ -215,7 +217,7 @@ Power On=Hauptschalter ein
 Power Off=Hauptschalter aus
 
 # =============================================================================
-# MASCHINENTELEGRAF - BEFEHLE & ANZEIGEN (HISTORISCH KORREKT)
+# MASCHINENTELEGRAF - BEFEHLE & ANZEIGEN 
 # =============================================================================
 # Fahrtstufen Voraus (Ahead)
 Dead slow speed ahead=Kleine Fahrt voraus
@@ -241,7 +243,7 @@ Start diesel engine=Dieselmaschine anlassen
 Start electric engine=E-Maschine anlassen
 
 # =============================================================================
-# DIESELMASCHINENRAUM (ENTWIRRT)
+# DIESELMASCHINENRAUM 
 # =============================================================================
 Start diesel engine=Dieselmaschine anlassen
 Decouple diesel engine=Dieselmaschine auskuppeln
@@ -344,7 +346,7 @@ Table for calculating attack distances using the horizontal scale=Tabelle zur En
 # =============================================================================
 # TORPEDOTECHNIK & RECHENAPPARAT (TDC)
 # =============================================================================
-Angle on bow=Lagewinkel
+Angle on bow=Lagenwinkel
 Target speed=Gegnerfahrt (v)
 Target range=Zielentfernung (E)
 Target heading=Gegnerkurs
@@ -394,7 +396,60 @@ Speed=Fahrt
 
 
 # =============================================================================
-# TORPEDO-INFOKARTEN (AUFGETEILT IN ZWEI TEXT-OBJEKTE)
+# LOGBUCH
+# =============================================================================
+Orders=Befehle
+Recognition Manual=Erkennungsbuch
+Recognition manual=Erkennungsbuch
+Identified Ships=Erkannte Schiffe
+Background color=Hintergrundfarbe
+Recognition manual >=Erkennungsbuch >
+Warships >=Kriegsschiffe >
+Aircraft >=Flugzeuge >
+Search results >=Suchergebnisse >
+
+Engine placement=Maschinenlage
+Superstructure=Aufbauten
+Islands=Inselaufbauten
+Masts=Masten
+Ship type=Schiffstyp
+Unspecified=Keine Angabe
+Amidship=Mittschiffs
+Aft=Achtern
+Split=Geteilt
+Composite=Kombiniert
+Front=Vorn
+Mid=Mittschiffs
+
+Height in meters=Höhe in Metern
+Length in meters=Länge in Metern
+Vertical View Angle=Vertikale Blickwinkel
+Horizontal View Angle=Horizontaler Blickwinkel
+
+Warships=Kriegsschiffe
+Bogue aircraft carrier=Geleitflugzeugträger der „Bogue“-Klasse
+Flower class corvette=Korvette der „Flower“-Klassse
+Bittern class sloop=Sloop der „Bittern“-Klasse
+Tribal class destroyer=Zerstörer der „Tribal“-Klasse
+
+Aircraft=Flugzeuge
+B-24 Liberator=B-24 „Liberator“
+Spitfire=„Spitfire“
+Swordfish=„Swordfish“
+Wellington=„Wellington“
+
+Merchants=Handelsschiffe
+r:"^Heavy Freighter, type ([0-9]+)$"=Schwerer Frachter, Typ $1
+r:"^Heavy Tanker, type ([0-9]+)$"=Schwerer Tanker, Typ $1
+r:"^Light Merchant, type ([0-9]+)$"=Kleines Handelsschiff, Typ $1
+r:"^Medium Tanker, type ([0-9]+)$"=Mittlerer Tanker, Typ $1
+r:"^Passenger Liner, type ([0-9]+)$"=Passagierdampfer, Typ $1
+r:"^Requisitioned Trawler , type ([0-9]+)$"=Requirierter Trawler, Typ $1
+r:"Displacement:\s*([0-9.,]+)\s*tons\s*Length:\s*([0-9.,]+)\s*m\s*Draught:\s*([0-9.,]+)\s*m\s*Beam:\s*([0-9.,]+)\s*m\s*Speed:\s*([0-9.,]+)\s*kts\s*Mast\s*height:\s*([0-9.,]+)\s*m"=Wasserverdrängung: $1 t\nLänge: $2 m\nTiefgang: $3 m\nBreite: $4 m\nGeschwindigkeit: $5 kn\nMasthöhe: $6 m
+
+
+# =============================================================================
+# TORPEDO-INFOKARTEN 
 # =============================================================================
 r:^The\s+type\s+I\s+torpedo\s+is\s+a\s+steam\s+powered\s+torpedo\.\s+Steam\s+torpedoes\s+have\s+a\s+long\s+range\s+and\s+high\s+speed,\s+but\s+are\s+noisy\s+and\s+leave\s+a\s+trail\s+of\s+bubbles\s+that\s+can\s+be\s+visually\s+detected\.\n\nPropulsion:\s*Steam\s+powered\nEntered\s+service:\s*1934\nRange:\s*7000\s*-\s*14000\s+meters\nSpeed:\s*30\s*-\s*44\s+knots\nTrigger\s+mechanism:\s*Impact\s+pistol\nGuidance:\s*None$="Der G7a-Torpedo (Typ I „Ato“) ist ein dampfgetriebener Torpedo. Dampftorpedos besitzen eine große Reichweite und hohe Geschwindigkeit, sind jedoch geräuschvoll und hinterlassen eine sichtbare Blasenbahn, die optisch ausgemacht werden kann.\n\nAntrieb: Dampfmotor\nIn Dienst gestellt: 1934\nReichweite: 7000 - 14000 Meter\nFahrt: 30 - 44 sm/h\nZündmechanismus: Aufschlagzünder (AZ)\nLenkung: Keine"
 r:^The\s+type\s+II\s+torpedo\s+is\s+an\s+electric\s+torpedo\.\s+Electric\s+torpedoes\s+leave\s+no\s+bubble\s+trail,\s+and\s+are\s+virtually\s+silent,\s+but\s+have\s+limited\s+range\s+and\s+speed\.\n\nPropulsion:\s*Electric\nEntered\s+service:\s*1936\nRange:\s*5000\s+meters\nSpeed:\s*30\s+knots\nTrigger\s+mechanism:\s*Impact\s+pistol\nGuidance:\s*None$="Der G7e-Torpedo (Typ II „Eto“) ist ein elektrisch angetriebener Torpedo. Elektrotorpedos hinterlassen keine Blasenbahn und laufen nahezu geräuschlos, besitzen jedoch eine begrenzte Reichweite und Geschwindigkeit.\n\nAntrieb: Elektromotor\nIn Dienst gestellt: 1936\nReichweite: 5000 Meter\nFahrt: 30 sm/h\nZündmechanismus: Aufschlagzünder (AZ)\nLenkung: Keine"
